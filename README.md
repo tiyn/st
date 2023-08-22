@@ -1,4 +1,4 @@
-# st-0.9.0
+# st
 
 This is my patched version of st. The base version is directly from suckless.org.
 This belongs to my larbs installation script, but does not directly depend on it.
