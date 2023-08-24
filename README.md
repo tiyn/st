@@ -36,10 +36,6 @@ There are various shortcuts and hotkeys used in this version. Included in my bui
 
 ## Installation
 
-To install this package you can run several commands.
-If you want to use st with colored emojis make sure to install `libxft-bgra`
-(`yay -S libxft-bgra` on arch based systems`).
-
 The most basic way is to clone the repository and then invoke make.
 
 - `git clone https://github.com/tiyn/st-0.9.0`
