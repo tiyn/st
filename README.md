@@ -8,6 +8,7 @@ It is supposed to work in the environment after the larbs-base-installation.
 
 The list below shows the currently applied patches to the master branch.
 
+- st-alpha-20220206-0.8.5.diff (adds transparency)
 - st-anysize-20220718-baa9357.diff (st leaves no gaps if the height/width doesn't match a multiple of
   character height)
 - st-ligatures-scrollback-20230105-0.9.diff (scrollback compatible addition of ligatures)
