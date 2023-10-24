@@ -39,5 +39,5 @@ There are various shortcuts and hotkeys used in this version. Included in my bui
 
 The most basic way is to clone the repository and then invoke make.
 
-- `git clone https://github.com/tiyn/st-0.9.0`
+- `git clone https://github.com/tiyn/st`
 - `make clean install`
