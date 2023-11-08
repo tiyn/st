@@ -93,10 +93,13 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
+/* bg opacity */
+float alpha = 1.0;
+
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#1e1e1e",
+	"#191919",
 	"#f44747",
 	"#608b4e",
 	"#dcdcaa",
@@ -114,7 +117,7 @@ static const char *colorname[] = {
 	"#d4d4d4",
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#1e1e1e",   /* 256 -> bg */
+	"#191919",   /* 256 -> bg */
 	"#d4d4d4",   /* 257 -> fg */
 	"#a4a4a4", /* 258 -> cursor */
 };
@@ -181,6 +184,8 @@ static MouseShortcut mshortcuts[] = {
 #define MODKEY Mod1Mask
 #define TERMMOD (ControlMask|ShiftMask)
 
+static char *copyoutput[] = { "/bin/sh", "-c", "st-copyout", "externalpipe", NULL };
+
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
 	{ MODKEY,		XK_Break,       sendbreak,      {.i =  0} },
@@ -196,6 +201,7 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,		XK_U,           zoom,           {.f = +1} },
 	{ MODKEY|ShiftMask,	XK_U,           zoom,           {.f = +1} },
 	{ MODKEY|ShiftMask,	XK_I,           zoom,           {.f = -1} },
+	{ MODKEY,               XK_o,           externalpipe,   {.v = copyoutput } },
 };
 
 /*
