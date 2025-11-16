@@ -11,14 +11,9 @@ static int borderpx = 2;
 /* Spare fonts */
 static char *font2[] = {
   "JoyPixels:pixelsize=16:antialias=true:autohint=true",
-  "Symbols Nerd Font Mono:pixelsize=16:antialias=true:autohint=true",
   "Symbola:pixelsize=16:antialias=true:autohint=true",
-  "Noto Sans Symbols2:pixelsize=16:antialias=true:autohint=true",
-  "Font Awesome 6 Free:pixelsize=16:antialias=true:autohint=true",
   "Source Han Mono:pixelsize=16:antialias=true:autohint=true",
-  "Source Han Serif JP:pixelsize=16:antialias=true:autohint=true",
   "Source Han Mono K:pixelsize=16:antialias=true:autohint=true",
-  "Source Han Serif KR:pixelsize=16:antialias=true:autohint=true",
 };
 
 /*
