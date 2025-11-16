@@ -1,5 +1,7 @@
 # st
 
+![vim-example](vim-example.png)
+
 This is my patched version of st. The base version is directly from suckless.org.
 This belongs to my larbs installation script, but does not directly depend on it.
 It is supposed to work in the environment after the larbs-base-installation.
