@@ -8,6 +8,14 @@
 static char *font = "mono:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 2;
 
+/* Spare fonts */
+static char *font2[] = {
+  "JoyPixels:pixelsize=16:antialias=true:autohint=true",
+  "Symbola:pixelsize=16:antialias=true:autohint=true",
+  "Source Han Mono:pixelsize=16:antialias=true:autohint=true",
+  "Source Han Mono K:pixelsize=16:antialias=true:autohint=true",
+};
+
 /*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
@@ -174,8 +182,8 @@ static uint forcemousemod = ShiftMask;
  */
 static MouseShortcut mshortcuts[] = {
 	/* mask                 button      function    argument    release */
-	{ Button4,              XK_NO_MOD,  "\031" },
-	{ Button5,              XK_NO_MOD,  "\005" },
+	// { Button4,              XK_NO_MOD,  "\031" },
+	// { Button5,              XK_NO_MOD,  "\005" },
         { XK_NO_MOD,            Button4,    kscrollup,  {.i = 1} },
         { XK_NO_MOD,            Button5,    kscrolldown,{.i = 1} },
 };
