@@ -52,3 +52,5 @@ Mkfile.old
 dkms.conf
 
 st
+
+config.h
