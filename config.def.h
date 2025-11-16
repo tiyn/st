@@ -8,6 +8,12 @@
 static char *font = "mono:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 2;
 
+/* Spare fonts */
+static char *font2[] = {
+/*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
+/*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
+};
+
 /*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
