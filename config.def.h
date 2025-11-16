@@ -174,8 +174,8 @@ static uint forcemousemod = ShiftMask;
  */
 static MouseShortcut mshortcuts[] = {
 	/* mask                 button      function    argument    release */
-	{ Button4,              XK_NO_MOD,  "\031" },
-	{ Button5,              XK_NO_MOD,  "\005" },
+	// { Button4,              XK_NO_MOD,  "\031" },
+	// { Button5,              XK_NO_MOD,  "\005" },
         { XK_NO_MOD,            Button4,    kscrollup,  {.i = 1} },
         { XK_NO_MOD,            Button5,    kscrolldown,{.i = 1} },
 };
